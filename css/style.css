@@ -1,5 +1,9 @@
 @import "compass/css3";
 
+*{
+  font-family: 'Roboto', serif;
+}
+
 body {
 
 	background-image: url("fondo.jpg");
@@ -7,7 +11,8 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: white;
-	font-family: Roboto;
+	
+
 
 }
 
