@@ -19,13 +19,13 @@ body {
 
 
 
+
 .logo {
 
 
 	display: flex;
 	justify-content: center;
 }
-
 
 
 
@@ -184,93 +184,87 @@ body {
 }
 
 /* Contact US */
+
 .cf {
-  width: 720px;
-  margin: 0 auto;
-}
-
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-}
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-.right {
-  margin-left: 2%;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-input[type="submit"] {
-  margin-left: 25%; /* Ajusta el margen izquierdo según sea necesario */
-  width: 50%;
-  background-color: #676767;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #000000;
-}
-
-#input-message {
-  margin-left: 0; /* Restablecer el margen izquierdo a 0 */
-}
-
-@media (max-width: 768px) {
-  .cf {
-    width: 80%;
+	width: 720px;
+	margin: 0 auto;
   }
-}
-
-@media (max-width: 480px) {
-  .cf {
-    width: 90%;
+  .cf:before,
+  .cf:after {
+    content: " ";
+    display: table;
   }
 
-  h1 {
-    font-size: 20px;
+  .cf:after {
+    clear: both;
+  }
+
+  .half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+
+  .left {
+    margin-right: 2%;
+  }
+
+  .right {
+    margin-left: 2%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
   }
 
   input[type="submit"] {
-    margin-left: 15%; /* Ajusta el margen izquierdo según sea necesario */
-    width: 70%;
+	margin-left: 12%;
+    width: 20%;
+    background-color: #676767;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
   }
-}
 
-@media (max-width: 600px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-right: 0; /* Ajusta el margen derecho a 0 */
-    margin-left: 0; /* Ajusta el margen izquierdo a 0 */
+  input[type="submit"]:hover {
+    background-color: #000000;
   }
-}
+  #input-message {
+	margin-left: 20%; /* Ajusta el margen izquierdo según sea necesario */
+  }
+
+  @media (max-width: 600px) {
+    .half {
+      width: 100%;
+      float: none;
+      margin-bottom: 0;
+    }
+	
+  }
+  /* Media queries para hacer que el formulario sea responsive */
+@media (max-width: 768px) {
+	.cf {
+	  width: 80%;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.cf {
+	  width: 90%;
+	}
+  
+	h1 {
+	  font-size: 20px;
+	}
+  }
 
 /* footer */
 .site-footer
